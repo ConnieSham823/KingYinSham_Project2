@@ -32,6 +32,14 @@ html {
     padding: 40px 0px;
   }
 
+  #image-1 {
+    display: none;
+  }
+
+  #footer {
+    padding: 40px 0px;
+  }
+
   .grid-con {
     display: grid;
     grid-template-columns: repeat (4, minmax (0, 1fr));
@@ -54,3 +62,104 @@ html {
   .col-end-3 {grid-column-end: 3}
   .col-end-4 {grid-column-end: 4}
   .col-end-5 {grid-column-end: 5}
+
+  /*Tablet Library Grid Styles  */
+
+  @media screen and (min-width: 768px) {
+    .grid.con {
+      grid-template-columns: repeat(12, minmax(0,1fr));
+    }
+
+    #logo {
+      padding: 30px 0px ;
+    }
+
+    #nav {
+      padding:  30px 0px;
+    }
+
+    #hero-image {
+      padding: 80px 0px;
+    }
+
+    #product-1, #product-2 {
+      padding: 50px 0px;
+    }
+
+    #service-1, #service-2, #service-3, #service-4, #service-5, #service-6 {
+      padding: 70px 0px;
+    }
+
+    #image-1 {
+      display: none;
+    }
+
+    #footer {
+      padding: 50px 0px;
+    }
+
+    .t-col-start-1 {grid-column-start: 1;}
+    .t-col-start-2 {grid-column-start: 2;}
+    .t-col-start-3 {grid-column-start: 3;}
+    .t-col-start-4 {grid-column-start: 4;}
+    .t-col-start-5 {grid-column-start: 5;}
+    .t-col-start-6 {grid-column-start: 6;}
+    .t-col-start-7 {grid-column-start: 7;}
+    .t-col-start-8 {grid-column-start: 8;}
+    .t-col-start-9 {grid-column-start: 9;}
+    .t-col-start-10 {grid-column-start: 10;}
+    .t-col-start-11 {grid-column-start: 11;}
+    .t-col-start-12 {grid-column-start: 12;}
+
+    .t-col-end-1 {grid-column-end: 1}
+    .t-col-end-2 {grid-column-end: 2}
+    .t-col-end-3 {grid-column-end: 3}
+    .t-col-end-4 {grid-column-end: 4}
+    .t-col-end-5 {grid-column-end: 5}
+    .t-col-end-6 {grid-column-end: 6}
+    .t-col-end-7 {grid-column-end: 7}
+    .t-col-end-8 {grid-column-end: 8}
+    .t-col-end-9 {grid-column-end: 9}
+    .t-col-end-10 {grid-column-end: 10}
+    .t-col-end-11 {grid-column-end: 11}
+    .t-col-end-12 {grid-column-end: 12}
+    .t-col-end-13 {grid-column-end: 13}
+  }
+
+  /* Laptop / Destop Library Grid Styles */
+@media screen and (min-width: 1200px) {
+  .grid-con {
+    grid-template-columns: repeat(12, minmax(0,1fr));
+  }
+  
+  #image-1 {
+    display: block;
+  }
+    .l-col-start-1 {grid-column-start: 1;}
+    .l-col-start-2 {grid-column-start: 2;}
+    .l-col-start-3 {grid-column-start: 3;}
+    .l-col-start-4 {grid-column-start: 4;}
+    .l-col-start-5 {grid-column-start: 5;}
+    .l-col-start-6 {grid-column-start: 6;}
+    .l-col-start-7 {grid-column-start: 7;}
+    .l-col-start-8 {grid-column-start: 8;}
+    .l-col-start-9 {grid-column-start: 9;}
+    .l-col-start-10 {grid-column-start: 10;}
+    .l-col-start-11 {grid-column-start: 11;}
+    .l-col-start-12 {grid-column-start: 12;}
+
+    .l-col-end-1 {grid-column-end: 1}
+    .l-col-end-2 {grid-column-end: 2}
+    .l-col-end-3 {grid-column-end: 3}
+    .l-col-end-4 {grid-column-end: 4}
+    .l-col-end-5 {grid-column-end: 5}
+    .l-col-end-6 {grid-column-end: 6}
+    .l-col-end-7 {grid-column-end: 7}
+    .l-col-end-8 {grid-column-end: 8}
+    .l-col-end-9 {grid-column-end: 9}
+    .l-col-end-10 {grid-column-end: 10}
+    .l-col-end-11 {grid-column-end: 11}
+    .l-col-end-12 {grid-column-end: 12}
+    .l-col-end-13 {grid-column-end: 13}
+}
+
