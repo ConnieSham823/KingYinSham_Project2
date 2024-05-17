@@ -21,7 +21,7 @@ html {
 
   /* Mobile Library Grid Styles */
   #hero-image {
-    padding: 59px 0px;
+    padding: 60px 0px;
   }
 
   #product-1, #product-2 {
@@ -29,7 +29,7 @@ html {
   }
 
   #service-1, #service-2, #service-3, #service-4, #service-5, #service-6 {
-    padding: 40px 0px;
+    padding: 50px 0px;
   }
 
   #image-1 {
@@ -42,7 +42,7 @@ html {
 
   .grid-con {
     display: grid;
-    grid-template-columns: repeat (4, minmax (0, 1fr));
+    grid-template-columns: repeat(4, minmax(0,1fr));
     grid-column-gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
@@ -66,7 +66,7 @@ html {
   /*Tablet Library Grid Styles  */
 
   @media screen and (min-width: 768px) {
-    .grid.con {
+    .grid-con {
       grid-template-columns: repeat(12, minmax(0,1fr));
     }
 
