@@ -4,10 +4,6 @@ html {
     box-sizing: border-box;
 }
 
-*, *::before, *::after {
-    box-sizing: inherit; 
-  }
-
   .hidden {
     display: none;
  }
@@ -27,7 +23,15 @@ html {
   #hero-image {
     padding: 59px 0px;
   }
-  
+
+  #product-1, #product-2 {
+    padding: 40px 0px;
+  }
+
+  #service-1, #service-2, #service-3, #service-4, #service-5, #service-6 {
+    padding: 40px 0px;
+  }
+
   .grid-con {
     display: grid;
     grid-template-columns: repeat (4, minmax (0, 1fr));
